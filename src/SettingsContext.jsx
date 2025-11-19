@@ -52,7 +52,8 @@ export const SettingsProvider = ({ children }) => {
 
   const settings = useMemo(
     () => ({
-      url: "https://ticketguru.hellmanstudios.fi",
+      url: "https://ticketguru.paulcarlson.fi",
+      //url: "http://localhost:8080",
       userName: userName,
       userPass: userPass,
       firstName: firstName,
